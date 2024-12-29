@@ -28,3 +28,30 @@
 #         score_maxvalue = score
 # print(f"The highest score in the class is : {score_maxvalue}")
 
+# value = 0
+# for i in range(2, 101):
+#     if i % 2 == 0:
+#         value += i
+# print(value)
+
+# value2 = 0
+# for i in range(2, 101, 2):
+#     value2 += i
+#
+# print(value2)
+
+
+def fizz_buzz():
+
+    for i in range(1, 101):
+        if i % 3 == 0 and i % 5 == 0:
+            print("FizzBuzz")
+        elif i % 3 == 0:
+            print("Fizz")
+        elif i % 5 == 0:
+            print("Buzz")
+        else:
+            print(i)
+
+
+fizz_buzz()
